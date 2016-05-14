@@ -14,11 +14,11 @@ http://fcc-api-url-shortener.herokuapp.com/new/http://google.com
 ```
 ### Example output
 ```
-{"original_url":"http://foo.com:80", "short_url":"http://fcc-api-url-shortener.herokuapp.com/SkRv2vXG"}
+{"original_url":"http://foo.com:80", "short_url":"http://fcc-api-url-shortener.herokuapp.com/r12iHyrM"}
 ```
 ### Usage
 ```
-http://fcc-api-url-shortener.herokuapp.com/BkpU2PQG
+http://fcc-api-url-shortener.herokuapp.com/Sk1nrJBf
 ```
 ### Redirect to
 ```
