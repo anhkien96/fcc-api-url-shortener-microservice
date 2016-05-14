@@ -1,0 +1,25 @@
+{
+  "name": "fcc-api-url-shortener-microservice",
+  "version": "0.0.0",
+  "description": "You can pass a URL as a parameter and I will receive a shortened URL in the JSON response.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+	"fcc",
+	"freecodecamp",
+    "api",
+    "url",
+    "shortener",
+	"microservice",
+    "anhkien96"
+  ],
+  "author": "Kien Nguyen <anhkien96@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "0.0.2",
+    "mongoose": "4.4.16",
+    "shortid": "2.2.6"
+  }
+}
