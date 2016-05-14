@@ -17,7 +17,7 @@ function getDirect(res, id) {
 	doc.find({_id: id}).limit(1).exec(function(err, data) {
 		if (err) throw err;
 		if (data.length > 0) res.writeHead(302, {'Location': data[0].url});
-		else res.write(false);
+		else res.write(JSON.stringify({error: 404}));
 		res.end();
 	});
 }
